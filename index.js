@@ -10,4 +10,6 @@ async function getImage(query) {
     const data = await response.json()
 }
 
-console.log(getImage(dogs));
+let url = "https://giphy.com/gifs/birthday-25-3oriNSevfPEs37Fex2"
+
+console.log(url);
